@@ -123,3 +123,4 @@ SELECT species.name AS species_name
   JOIN vets ON vets.id = specializations.vet_id
   WHERE vets.name = 'Maisy Smith' GROUP BY species.name
   ORDER BY COUNT(*) DESC LIMIT 1;
+  
